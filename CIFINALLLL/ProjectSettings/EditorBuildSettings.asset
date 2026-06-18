@@ -26,6 +26,21 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/CA\xC7A-NUTRIENTES dificuldades.unity"
     guid: bc43a2521e408b042a99269b44bb94e1
+  - enabled: 1
+    path: "Assets/Scenes/CA\xC7A-NUTRIENTES Score.unity"
+    guid: ee79ac7e27cbb774195de66a071af817
+  - enabled: 1
+    path: "Assets/Scenes/CA\xC7A-NUTRIENTES Jogo Facil.unity"
+    guid: d106107260c4e0e4c9f6c1b6d3288eda
+  - enabled: 1
+    path: "Assets/Scenes/CA\xC7A-NUTRIENTES tutorial F.unity"
+    guid: a031b2c956978934882e4d6695b275f1
+  - enabled: 1
+    path: "Assets/Scenes/CA\xC7A-NUTRIENTES tutorial D.unity"
+    guid: 3679ca7c647bfc5488cf7bff7911f33f
+  - enabled: 1
+    path: "Assets/Scenes/CA\xC7A-NUTRIENTES tutorial M.unity"
+    guid: 1688c961918e38943bf0641578b77186
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
