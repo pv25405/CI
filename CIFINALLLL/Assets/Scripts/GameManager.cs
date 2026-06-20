@@ -17,12 +17,24 @@ public class GameManager : MonoBehaviour
     private bool isGameOver = false;
 
     [Header("Efeito de Pontos Flutuantes")]
-    public GameObject floatingTextPrefab; // Arrastas o teu Prefab azul para aqui
+    public GameObject floatingTextPrefab; 
+
+    [Header("Efeitos Sonoros (SFX)")]
+    public AudioClip soundGood; // Som para comida saudável
+    public AudioClip soundBad;  // Som para comida má
+    private AudioSource audioSource; // O componente que vai reproduzir o som
 
     void Awake()
     {
         if (instance == null) instance = this;
         else Destroy(gameObject);
+
+        // Obtém ou adiciona automaticamente o componente de áudio no GameManager
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
     }
 
     void Start()
@@ -49,7 +61,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // Atualizámos esta função para aceitar a posição onde a comida foi apanhada!
     public void OnItemCaught(bool isHealthy, Vector3 spawnPosition)
     {
         if (isGameOver) return; 
@@ -62,33 +73,48 @@ public class GameManager : MonoBehaviour
         {
             score += 10;
             pointsChanged = 10;
-            textColor = Color.green; // Verde para saudável
+            textColor = Color.green;
             textPrefix = "+";
+
+            // Toca o som bom!
+            PlaySound(soundGood);
         }
         else
         {
             score -= 5;
             if (score < 0) score = 0;
             pointsChanged = 5;
-            textColor = Color.red; // Vermelho para não saudável
+            textColor = Color.red;
             textPrefix = "-";
+
+            // Toca o som mau!
+            PlaySound(soundBad);
         }
 
         UpdateScoreText();
-        
-        // Cria o texto de efeito no ecrã
         CreateFloatingText(textPrefix + pointsChanged + " PONTOS", spawnPosition, textColor);
+    }
+
+    // Função interna para dar o "Play" no som sem cortar o anterior
+    void PlaySound(AudioClip clip)
+    {
+        if (audioSource != null && clip != null)
+        {
+            audioSource.PlayOneShot(clip);
+        }
     }
 
     void CreateFloatingText(string text, Vector3 position, Color color)
     {
         if (floatingTextPrefab == null) return;
 
-        // Cria o texto dentro do Canvas como filho do GameManager ou da cena
-        GameObject textObj = Instantiate(floatingTextPrefab, transform.parent);
-        textObj.transform.position = position;
+        Canvas canvas = Object.FindFirstObjectByType<Canvas>();
+        if (canvas == null) return;
 
-        // Modifica o texto e a cor do componente TextMeshPro
+        GameObject textObj = Instantiate(floatingTextPrefab, canvas.transform);
+        textObj.transform.position = position;
+        textObj.transform.localScale = Vector3.one;
+
         TextMeshProUGUI tmp = textObj.GetComponent<TextMeshProUGUI>();
         if (tmp != null)
         {

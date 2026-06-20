@@ -41,6 +41,12 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/CA\xC7A-NUTRIENTES tutorial M.unity"
     guid: 1688c961918e38943bf0641578b77186
+  - enabled: 1
+    path: "Assets/Scenes/CA\xC7A-NUTRIENTES Jogo M\xE9dio.unity"
+    guid: e2842e75b831c2440aa284b77a53c2d0
+  - enabled: 1
+    path: "Assets/Scenes/CA\xC7A-NUTRIENTES Jogo Dif\xEDcil.unity"
+    guid: c24f698ee36c69e4f8f73014d2588df8
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

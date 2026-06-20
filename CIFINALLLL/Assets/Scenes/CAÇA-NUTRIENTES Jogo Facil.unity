@@ -324,7 +324,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'TEMPO: 20'
+  m_text: 'TEMPO: 30'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -713,9 +713,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   score: 0
   scoreText: {fileID: 0}
-  timeRemaining: 20
+  timeRemaining: 30
   timerText: {fileID: 859989036}
   floatingTextPrefab: {fileID: 5292059258059751805, guid: e53f7e6695d1e7a408a0dcada5c6a049, type: 3}
+  soundGood: {fileID: 8300000, guid: 49d8364ea03f3e54582cae68e24abcd5, type: 3}
+  soundBad: {fileID: 8300000, guid: 6a573005b194e2b40beb9e73d2307de9, type: 3}
 --- !u!1 &1460213798
 GameObject:
   m_ObjectHideFlags: 0
