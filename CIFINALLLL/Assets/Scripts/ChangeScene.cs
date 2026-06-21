@@ -11,6 +11,6 @@ public class ChangeScene : MonoBehaviour
  }
  public void UnloadLoseScene()
  {
- SceneManager.UnloadSceneAsync("LoseScene");
+ SceneManager.UnloadSceneAsync("Escolha dos jogos");
  }
 } 
