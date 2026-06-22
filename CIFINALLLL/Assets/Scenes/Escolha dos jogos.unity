@@ -293,8 +293,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9ee52b859ad4c8428ca775ced839aa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIZoomEffect
-  velocidadeZoom: 5
-  tamanhoMaximoZoom: 3
+  velocidadeZoom: 3
+  tamanhoMaximoZoom: 10
 --- !u!1 &50191698
 GameObject:
   m_ObjectHideFlags: 0
@@ -1007,8 +1007,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9ee52b859ad4c8428ca775ced839aa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIZoomEffect
-  velocidadeZoom: 5
-  tamanhoMaximoZoom: 3
+  velocidadeZoom: 3
+  tamanhoMaximoZoom: 10
 --- !u!1 &1143299932
 GameObject:
   m_ObjectHideFlags: 0
