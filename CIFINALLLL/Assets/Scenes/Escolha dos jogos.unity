@@ -926,7 +926,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Escola
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1129613282}
@@ -1202,10 +1202,10 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1579871259}
+  - {fileID: 1718177565}
   - {fileID: 1129613277}
   - {fileID: 47963092}
   - {fileID: 833717909}
-  - {fileID: 1718177565}
   - {fileID: 728882279}
   - {fileID: 1143299936}
   m_Father: {fileID: 0}

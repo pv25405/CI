@@ -1,54 +1,69 @@
 using UnityEngine;
-using UnityEngine.UI; // Obrigatório para interagir com os Botões
+using UnityEngine.UI;
 
 public class QuizUnlocker : MonoBehaviour
 {
     [Header("Botão do Quiz")]
-    public Button botaoQuiz; // Arrasta o teu botão QUIZ para aqui
-
-    // Variáveis para guardar se o jogador já clicou em cada aba
-    private bool clicouAlimentacaoSaudavel = false;
-    private bool clicouRodaAlimentos = false;
-    private bool clicouMaAlimentacao = false;
+    public Button botaoQuiz; 
 
     void Start()
     {
-        // Começa o jogo com o botão do Quiz bloqueado (não clicável)
-        if (botaoQuiz != null)
-        {
-            botaoQuiz.interactable = false;
-        }
+        // Ao iniciar a cena, verifica se o Quiz já deve estar desbloqueado
+        VerificarDesbloqueio();
     }
 
-    // Funções que os teus botões vão chamar ao serem clicados:
-    
+    // Estas funções guardam na memória permanente que o botão foi clicado (1 = Clicado)
     public void ClicouEmAlimentacaoSaudavel()
     {
-        clicouAlimentacaoSaudavel = true;
+        PlayerPrefs.SetInt("ClicouAlimentacao", 1);
+        PlayerPrefs.Save();
         VerificarDesbloqueio();
     }
 
     public void ClicouEmRodaAlimentos()
     {
-        clicouRodaAlimentos = true;
+        PlayerPrefs.SetInt("ClicouRoda", 1);
+        PlayerPrefs.Save();
         VerificarDesbloqueio();
     }
 
     public void ClicouEmMaAlimentacao()
     {
-        clicouMaAlimentacao = true;
+        PlayerPrefs.SetInt("ClicouMaAlimentacao", 1);
+        PlayerPrefs.Save();
         VerificarDesbloqueio();
     }
 
-    // Função que valida se as 3 condições foram cumpridas
     private void VerificarDesbloqueio()
     {
-        if (clicouAlimentacaoSaudavel && clicouRodaAlimentos && clicouMaAlimentacao)
+        // Vai buscar à memória o estado de cada botão (se não encontrar, assume 0)
+        int clicouAlimentacao = PlayerPrefs.GetInt("ClicouAlimentacao", 0);
+        int clicouRoda = PlayerPrefs.GetInt("ClicouRoda", 0);
+        int clicouMaAlimentacao = PlayerPrefs.GetInt("ClicouMaAlimentacao", 0);
+
+        // Se os três tiverem o valor 1, significa que o jogador já passou por todos!
+        if (clicouAlimentacao == 1 && clicouRoda == 1 && clicouMaAlimentacao == 1)
         {
             if (botaoQuiz != null)
             {
-                botaoQuiz.interactable = true; // Desbloqueia o botão do Quiz!
+                botaoQuiz.interactable = true; // Desbloqueia!
             }
         }
+        else
+        {
+            if (botaoQuiz != null)
+            {
+                botaoQuiz.interactable = false; // Continua trancado
+            }
+        }
+    }
+
+    // FUNÇÃO BÓNUS: Se quiseres resetar o jogo mais tarde, podes chamar isto para trancar o quiz outra vez
+    public void ResetarProgresso()
+    {
+        PlayerPrefs.DeleteKey("ClicouAlimentacao");
+        PlayerPrefs.DeleteKey("ClicouRoda");
+        PlayerPrefs.DeleteKey("ClicouMaAlimentacao");
+        VerificarDesbloqueio();
     }
 }
