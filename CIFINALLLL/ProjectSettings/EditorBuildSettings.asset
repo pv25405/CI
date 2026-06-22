@@ -47,6 +47,9 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/CA\xC7A-NUTRIENTES Jogo Dif\xEDcil.unity"
     guid: c24f698ee36c69e4f8f73014d2588df8
+  - enabled: 1
+    path: Assets/Scenes/Escola.unity
+    guid: 6ec4bb918f995d44b9af77b937117898
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
