@@ -68,6 +68,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Escola RODA DOS ALIMENTOS 3.unity
     guid: 169bc3d57ed19b1418c8ca83194ec177
+  - enabled: 1
+    path: "Assets/Scenes/Escola ALIMENTA\xC7\xC3O SAUD\xC1VEL.unity"
+    guid: cc5be1cbb2ae53e429c423a8391eb28a
+  - enabled: 1
+    path: "Assets/Scenes/Escola ALIMENTA\xC7\xC3O SAUD\xC1VEL 2.unity"
+    guid: 8b0f5de43af6c124385685373cb4bd02
+  - enabled: 1
+    path: "Assets/Scenes/Escola ALIMENTA\xC7\xC3O SAUD\xC1VEL 3.unity"
+    guid: 2188587ff492af140bfb7abc8abc9fe4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
