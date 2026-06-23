@@ -48,7 +48,7 @@ EditorBuildSettings:
     path: "Assets/Scenes/CA\xC7A-NUTRIENTES Jogo Dif\xEDcil.unity"
     guid: c24f698ee36c69e4f8f73014d2588df8
   - enabled: 1
-    path: Assets/Scenes/Escola.unity
+    path: Assets/Scenes/Escola Quiz.unity
     guid: 6ec4bb918f995d44b9af77b937117898
   - enabled: 1
     path: "Assets/Scenes/Escola M\xC1 ALIMENTA\xC7\xC3O.unity"
@@ -77,6 +77,9 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Escola ALIMENTA\xC7\xC3O SAUD\xC1VEL 3.unity"
     guid: 2188587ff492af140bfb7abc8abc9fe4
+  - enabled: 1
+    path: Assets/Scenes/Escola Quiz 1.unity
+    guid: 6ef5e411f96788f4cad6c8fa50a672f3
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
