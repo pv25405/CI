@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: b114b4eda8b95f24785124441b7c37e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1959127780719191624
+    second: transferir (17)_0
+  - first:
+      213: -3761990893134394396
+    second: transferir (17)_1
+  - first:
+      213: -6925952804564360123
+    second: transferir (17)_2
+  - first:
+      213: -3687012392723959081
+    second: transferir (17)_3
+  - first:
+      213: 970941984620479943
+    second: transferir (17)_4
+  - first:
+      213: 7371189169667238143
+    second: transferir (17)_5
+  - first:
+      213: 2097858242839611854
+    second: transferir (17)_6
+  - first:
+      213: -3749095287985206802
+    second: transferir (17)_7
+  - first:
+      213: 847266030749848649
+    second: transferir (17)_8
+  - first:
+      213: -3880748986600873917
+    second: transferir (17)_9
+  - first:
+      213: 124163684865123592
+    second: transferir (17)_10
+  - first:
+      213: -6089854825274396211
+    second: transferir (17)_11
+  - first:
+      213: 5087432284444781559
+    second: transferir (17)_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: transferir (17)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 443
+        width: 198
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b912a0d9a7cfc4e0800000000000000
+      internalID: -1959127780719191624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transferir (17)_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 30
+        width: 587
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb487ee639bacbc0800000000000000
+      internalID: -3761990893134394396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transferir (17)_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 472
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54422d89e9212ef90800000000000000
+      internalID: -6925952804564360123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transferir (17)_3
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 488
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2b93173c915dcc0800000000000000
+      internalID: -3687012392723959081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transferir (17)_4
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 488
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c501da379a797d00800000000000000
+      internalID: 970941984620479943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transferir (17)_5
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 488
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff8e83ede79bb4660800000000000000
+      internalID: 7371189169667238143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transferir (17)_6
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 443
+        width: 198
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec98499f4f61d1d10800000000000000
+      internalID: 2097858242839611854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transferir (17)_7
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 328
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee90d8af2b988fbc0800000000000000
+      internalID: -3749095287985206802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transferir (17)_8
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 28
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944991947f712cb00800000000000000
+      internalID: 847266030749848649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transferir (17)_9
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 19
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 340a2379b5fc42ac0800000000000000
+      internalID: -3880748986600873917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transferir (17)_10
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 22
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805a36aa63e19b100800000000000000
+      internalID: 124163684865123592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transferir (17)_11
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 29
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc132d54d4d7c7ba0800000000000000
+      internalID: -6089854825274396211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transferir (17)_12
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 25
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb6f2555b03a9640800000000000000
+      internalID: 5087432284444781559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      transferir (17)_0: -1959127780719191624
+      transferir (17)_1: -3761990893134394396
+      transferir (17)_10: 124163684865123592
+      transferir (17)_11: -6089854825274396211
+      transferir (17)_12: 5087432284444781559
+      transferir (17)_2: -6925952804564360123
+      transferir (17)_3: -3687012392723959081
+      transferir (17)_4: 970941984620479943
+      transferir (17)_5: 7371189169667238143
+      transferir (17)_6: 2097858242839611854
+      transferir (17)_7: -3749095287985206802
+      transferir (17)_8: 847266030749848649
+      transferir (17)_9: -3880748986600873917
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
