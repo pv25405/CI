@@ -37,16 +37,40 @@ EditorBuildSettings:
     guid: a031b2c956978934882e4d6695b275f1
   - enabled: 1
     path: "Assets/Scenes/CA\xC7A-NUTRIENTES tutorial D.unity"
-    guid: 3679ca7c647bfc5488cf7bff7911f33f
+    guid: 8cde9d02711ce6442ba03c54b86870d2
   - enabled: 1
     path: "Assets/Scenes/CA\xC7A-NUTRIENTES tutorial M.unity"
-    guid: 1688c961918e38943bf0641578b77186
+    guid: 9fffedf8e4e29f44ea05e4cd413eaf50
   - enabled: 1
     path: "Assets/Scenes/CA\xC7A-NUTRIENTES Jogo M\xE9dio.unity"
     guid: e2842e75b831c2440aa284b77a53c2d0
   - enabled: 1
     path: "Assets/Scenes/CA\xC7A-NUTRIENTES Jogo Dif\xEDcil.unity"
     guid: c24f698ee36c69e4f8f73014d2588df8
+  - enabled: 1
+    path: Assets/Scenes/SlidesEducacao.unity
+    guid: 525f7f150df8fbd418cc37d98a997cb0
+  - enabled: 1
+    path: Assets/Scenes/SlidesEducacao1.unity
+    guid: 6cd00a8e19211324981e5a8465911528
+  - enabled: 1
+    path: Assets/Scenes/SlidesEducacao2.unity
+    guid: 5cabb9787c4bf0f40a701e96145e333a
+  - enabled: 1
+    path: Assets/Scenes/SlidesEducacao3.unity
+    guid: 05fdef17f05682f4daadb2c62ea3782f
+  - enabled: 1
+    path: Assets/Scenes/SlidesEducacao4.unity
+    guid: 6b4a642ff14b61c43961779ddbac19f0
+  - enabled: 1
+    path: Assets/Scenes/SlidesEducacao5.unity
+    guid: 5c8a770f467d90341ab2d3977b3a604a
+  - enabled: 1
+    path: Assets/Scenes/SlidesEducacao6.unity
+    guid: 6a8e51746d7d85b41b37858e4eacb231
+  - enabled: 1
+    path: Assets/Scenes/SlidesEducacao7.unity
+    guid: 4bf491995bda7644f9d7d97b2a6a9c99
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
