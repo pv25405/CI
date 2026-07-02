@@ -105,3 +105,4 @@ InitTestScene*.unity*
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
 /[Cc][Ii][Ff][Ii][Nn][Aa][Ll][Ll][Ll][Ll]/*.dll
+Library/
