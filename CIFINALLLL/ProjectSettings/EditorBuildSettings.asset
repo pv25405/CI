@@ -47,7 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/CA\xC7A-NUTRIENTES Jogo Dif\xEDcil.unity"
     guid: c24f698ee36c69e4f8f73014d2588df8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SlidesEducacao.unity
     guid: 525f7f150df8fbd418cc37d98a997cb0
   - enabled: 1
@@ -71,6 +71,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SlidesEducacao7.unity
     guid: 4bf491995bda7644f9d7d97b2a6a9c99
+  - enabled: 1
+    path: Assets/Scenes/Escola.unity
+    guid: dbb3d6f46e729f4458e9ebeb65b903f0
+  - enabled: 1
+    path: Assets/Scenes/EscolaQ.unity
+    guid: 6ec4bb918f995d44b9af77b937117898
+  - enabled: 1
+    path: Assets/Scenes/EscolaQ2.unity
+    guid: 3ec27eb477c3ff4438079b6a557bc3a4
+  - enabled: 1
+    path: Assets/Scenes/EscolaQ3.unity
+    guid: 176fa0ced2dde6e41b87fe0568fa2a2a
+  - enabled: 1
+    path: Assets/Scenes/EscolaQF.unity
+    guid: 6ef5e411f96788f4cad6c8fa50a672f3
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
