@@ -86,6 +86,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EscolaQF.unity
     guid: 6ef5e411f96788f4cad6c8fa50a672f3
+  - enabled: 1
+    path: Assets/Scenes/Scenes/JogoRoda.unity
+    guid: 6b75111154234834aa7098c9754a1a75
+  - enabled: 1
+    path: Assets/Scenes/Scenes/JogoRodaM.unity
+    guid: b366a807ec0ca944d877382f6d7c32cd
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
