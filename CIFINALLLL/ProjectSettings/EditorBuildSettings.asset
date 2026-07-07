@@ -113,6 +113,33 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scenes/JogoRodaC.unity
     guid: a72325f5ff2fdd746a24b80a02587bd1
+  - enabled: 1
+    path: Assets/Scenes/NUTRISNAKE.unity
+    guid: fdccc67493e1990488fa68cbd0d7b282
+  - enabled: 1
+    path: Assets/Scenes/NUTRISNAKE dificuldades.unity
+    guid: 0b306169ba03ef0458b78aa2270fdf72
+  - enabled: 1
+    path: Assets/Scenes/NUTRISNAKE tutorial F.unity
+    guid: 3df19c170ae2b4246a41038a2b97cd6e
+  - enabled: 1
+    path: Assets/Scenes/NUTRISNAKE tutorial M.unity
+    guid: 626425bcb0bf47e42afadd3f9638b698
+  - enabled: 1
+    path: Assets/Scenes/NUTRISNAKE tutorial D.unity
+    guid: b8cae21c968f6a34e947f8f2692eeef0
+  - enabled: 1
+    path: Assets/Scenes/NUTRISNAKE Jogo Facil.unity
+    guid: e2d8f521e28cfd74bad4bed9eff838ec
+  - enabled: 1
+    path: "Assets/Scenes/NUTRISNAKE Jogo M\xE9dio.unity"
+    guid: c7badb44bea470445b2a141d90eff955
+  - enabled: 1
+    path: "Assets/Scenes/NUTRISNAKE Jogo Dif\xEDcil.unity"
+    guid: 28a55b343a967814f8b13aaf9c203be2
+  - enabled: 1
+    path: Assets/Scenes/NUTRISNAKE Score.unity
+    guid: 4950bf56994ea37499c1b6e9165f823b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

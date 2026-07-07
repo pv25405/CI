@@ -169,6 +169,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e39bda12ab795c4bad2041bb1d9ef8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragDrop
+  soundAcerto: {fileID: 8300000, guid: 49d8364ea03f3e54582cae68e24abcd5, type: 3}
+  soundErro: {fileID: 8300000, guid: 6a573005b194e2b40beb9e73d2307de9, type: 3}
   categoriaCorreta: Leguminosas
 --- !u!114 &83610345
 MonoBehaviour:
@@ -422,6 +424,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e39bda12ab795c4bad2041bb1d9ef8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragDrop
+  soundAcerto: {fileID: 8300000, guid: 49d8364ea03f3e54582cae68e24abcd5, type: 3}
+  soundErro: {fileID: 8300000, guid: 6a573005b194e2b40beb9e73d2307de9, type: 3}
   categoriaCorreta: Frutas
 --- !u!114 &208931535
 MonoBehaviour:
@@ -1538,6 +1542,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e39bda12ab795c4bad2041bb1d9ef8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragDrop
+  soundAcerto: {fileID: 8300000, guid: 49d8364ea03f3e54582cae68e24abcd5, type: 3}
+  soundErro: {fileID: 8300000, guid: 6a573005b194e2b40beb9e73d2307de9, type: 3}
   categoriaCorreta: Horticolas
 --- !u!114 &712846318
 MonoBehaviour:
@@ -1961,6 +1967,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e39bda12ab795c4bad2041bb1d9ef8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragDrop
+  soundAcerto: {fileID: 8300000, guid: 49d8364ea03f3e54582cae68e24abcd5, type: 3}
+  soundErro: {fileID: 8300000, guid: 6a573005b194e2b40beb9e73d2307de9, type: 3}
   categoriaCorreta: Laticinios
 --- !u!114 &1176251443
 MonoBehaviour:
@@ -2050,6 +2058,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e39bda12ab795c4bad2041bb1d9ef8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragDrop
+  soundAcerto: {fileID: 8300000, guid: 49d8364ea03f3e54582cae68e24abcd5, type: 3}
+  soundErro: {fileID: 8300000, guid: 6a573005b194e2b40beb9e73d2307de9, type: 3}
   categoriaCorreta: Cereais
 --- !u!114 &1180376337
 MonoBehaviour:
@@ -2228,6 +2238,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e39bda12ab795c4bad2041bb1d9ef8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragDrop
+  soundAcerto: {fileID: 8300000, guid: 49d8364ea03f3e54582cae68e24abcd5, type: 3}
+  soundErro: {fileID: 8300000, guid: 6a573005b194e2b40beb9e73d2307de9, type: 3}
   categoriaCorreta: Gorduras
 --- !u!114 &1214152730
 MonoBehaviour:
@@ -2578,6 +2590,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e39bda12ab795c4bad2041bb1d9ef8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragDrop
+  soundAcerto: {fileID: 8300000, guid: 49d8364ea03f3e54582cae68e24abcd5, type: 3}
+  soundErro: {fileID: 8300000, guid: 6a573005b194e2b40beb9e73d2307de9, type: 3}
   categoriaCorreta: Carne
 --- !u!114 &1498637799
 MonoBehaviour:
@@ -2667,6 +2681,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e39bda12ab795c4bad2041bb1d9ef8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragDrop
+  soundAcerto: {fileID: 8300000, guid: 49d8364ea03f3e54582cae68e24abcd5, type: 3}
+  soundErro: {fileID: 8300000, guid: 6a573005b194e2b40beb9e73d2307de9, type: 3}
   categoriaCorreta: Leguminosas
 --- !u!114 &1531517207
 MonoBehaviour:
@@ -3376,6 +3392,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e39bda12ab795c4bad2041bb1d9ef8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragDrop
+  soundAcerto: {fileID: 8300000, guid: 49d8364ea03f3e54582cae68e24abcd5, type: 3}
+  soundErro: {fileID: 8300000, guid: 6a573005b194e2b40beb9e73d2307de9, type: 3}
   categoriaCorreta: Cereais
 --- !u!114 &2099293897
 MonoBehaviour:

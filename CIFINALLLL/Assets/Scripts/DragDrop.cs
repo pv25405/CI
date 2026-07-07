@@ -1,35 +1,55 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 using System.Collections;
 using System.Collections.Generic;
 
 public class DragDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    public string categoriaCorreta;
+    
+
+    [Header("Sons")]
+    public AudioClip soundAcerto;
+    public AudioClip soundErro;
+    private AudioSource audioSource;
+public string categoriaCorreta;
 
     private Vector3 posInicial;
     private Image img;
     private Vector3 zonaFinalPos;
+    private bool jaColocado = false;
 
-    void Start()
+
+void Start()
     {
         posInicial = transform.position;
         img = GetComponent<Image>();
+
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
     }
 
-    public void OnBeginDrag(PointerEventData eventData)
+public void OnBeginDrag(PointerEventData eventData)
     {
+        if (jaColocado) return;
         img.color = Color.white;
     }
 
-    public void OnDrag(PointerEventData eventData)
+public void OnDrag(PointerEventData eventData)
     {
+        if (jaColocado) return;
         transform.position = eventData.position;
     }
 
-    public void OnEndDrag(PointerEventData eventData)
+public void OnEndDrag(PointerEventData eventData)
     {
+        if (jaColocado) return;
+
         List<RaycastResult> resultados = new List<RaycastResult>();
         EventSystem.current.RaycastAll(eventData, resultados);
 
@@ -56,15 +76,19 @@ public class DragDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
         Errou();
     }
 
-    void Acertou()
+void Acertou()
     {
         ScoreManager.acertos++;
+        PlaySound(soundAcerto);
+        jaColocado = true;
         StartCoroutine(AnimacaoAcerto());
+        VerificarFimDeJogo();
     }
 
-    void Errou()
+void Errou()
     {
         ScoreManager.erros++;
+        PlaySound(soundErro);
         StartCoroutine(AnimacaoErro());
     }
 
@@ -91,5 +115,30 @@ public class DragDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
 
         img.color = Color.white;
         transform.position = posInicial;
+    }
+
+
+void PlaySound(AudioClip clip)
+    {
+        if (audioSource != null && clip != null)
+        {
+            audioSource.PlayOneShot(clip);
+        }
+    }
+
+
+void VerificarFimDeJogo()
+    {
+        DragDrop[] todos = FindObjectsByType<DragDrop>(FindObjectsSortMode.None);
+        foreach (DragDrop d in todos)
+        {
+            if (!d.jaColocado) return;
+        }
+
+        TempoCronometroTMP cronometro = FindFirstObjectByType<TempoCronometroTMP>();
+        if (cronometro != null)
+        {
+            SceneManager.LoadScene(cronometro.cenaResultado);
+        }
     }
 }
