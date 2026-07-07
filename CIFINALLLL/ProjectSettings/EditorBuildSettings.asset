@@ -92,6 +92,27 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scenes/JogoRodaM.unity
     guid: b366a807ec0ca944d877382f6d7c32cd
+  - enabled: 1
+    path: Assets/Scenes/Scenes/JogoRoda1.unity
+    guid: 86b600774b7a5e34d9ad9193afd5701d
+  - enabled: 1
+    path: Assets/Scenes/Scenes/JogoRoda2.unity
+    guid: a1608250634bd994db08dd2de05df44b
+  - enabled: 1
+    path: Assets/Scenes/Scenes/JogoRoda3.unity
+    guid: 3baa93b569763e3419f3c1219fc5db3c
+  - enabled: 1
+    path: Assets/Scenes/Scenes/ResultadoNivel1.unity
+    guid: 5a8c2e3aa97da37419eae6310f454595
+  - enabled: 1
+    path: Assets/Scenes/Scenes/ResultadoNivel2.unity
+    guid: 2309234bdba14514e88c36d744660643
+  - enabled: 1
+    path: Assets/Scenes/Scenes/ResultadoNivel3.unity
+    guid: 7a965093e56b26d4da5581a60adf73a0
+  - enabled: 1
+    path: Assets/Scenes/Scenes/JogoRodaC.unity
+    guid: a72325f5ff2fdd746a24b80a02587bd1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
